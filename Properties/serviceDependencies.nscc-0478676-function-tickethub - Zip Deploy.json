@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/nscc0478676storageacct",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/nscc-0478676-function-tickethub/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage1_DB96A219D3, /subscriptions/408b39cd-d43b-4381-be81-dd677773b068/resourceGroups/DefaultResourceGroup-CCAN/providers/Microsoft.Web/sites/nscc-0478676-function-tickethub/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage1_21DA51DA61",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/nscc0478676storageacct",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage1",
+      "dynamicId": null
+    }
+  }
+}
